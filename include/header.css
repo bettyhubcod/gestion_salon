@@ -1,0 +1,69 @@
+@font-face {
+    font-family: brolia;
+    src: url(Brolia.otf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+/* Container de la navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid white; 
+}
+
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px; 
+  font-weight: 500;
+  font-family: brolia ;
+  font-size: 25px;
+}
+
+
+
+.visitor{
+    padding-bottom: 15px;
+}
+nav .logo img {
+   position: relative; 
+  height: 100px; 
+  right: 120px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+nav .visitor img,
+nav .photo_profil img {
+  height: 25px;}
+nav .left,
+nav .right {
+  display: flex;
+  align-items: center;
+}
+
+nav .left{
+    gap: 50px;
+}
+
+
+nav .container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a:hover {
+  color: #f0f0f0;
+}
+ .visitor , .user {
+  display: none;
+}
